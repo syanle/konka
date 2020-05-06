@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">Taustapildi valimine</string>
+    <string name="wallpaper_chooser_empty">Saadaval pole ühtegi taustapilti</string>
+    <string name="wallpaper_cancel">Tühista</string>
+</resources>

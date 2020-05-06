@@ -1,0 +1,13 @@
+package com.tencent.stat;
+
+class ax implements Runnable {
+    final /* synthetic */ au a;
+
+    ax(au auVar) {
+        this.a = auVar;
+    }
+
+    public void run() {
+        this.a.i();
+    }
+}

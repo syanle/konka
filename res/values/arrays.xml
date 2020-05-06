@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_interface_homescreen_scrolling_transition_effect_entries">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>Zoom In</item>
+        <item>Zoom Out</item>
+        <item>Rotate Up</item>
+        <item>Rotate Down</item>
+        <item>Cube In</item>
+        <item>Cube Out</item>
+        <item>Stack</item>
+    </string-array>
+    <string-array name="preferences_interface_homescreen_scrolling_transition_effect_values">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>Stack</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_scrolling_transition_effect_entries">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>Zoom In</item>
+        <item>Zoom Out</item>
+        <item>Rotate Up</item>
+        <item>Rotate Down</item>
+        <item>Cube In</item>
+        <item>Cube Out</item>
+        <item>Stack</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_scrolling_transition_effect_values">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>Stack</item>
+    </string-array>
+    <array name="extra_wallpapers" />
+    <string-array name="wallpapers_image">
+        <item>wallpaper_0</item>
+        <item>wallpaper_1</item>
+        <item>wallpaper_2</item>
+        <item>wallpaper_3</item>
+        <item>wallpaper_4</item>
+        <item>wallpaper_5</item>
+    </string-array>
+    <string-array name="livewallpaper_intent">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+    <string-array name="wallpapers_image_with_live">
+        <item>wallpaper_3</item>
+        <item>wallpaper_0</item>
+        <item>wallpaper_2</item>
+        <item>wallpaper_live_windmill</item>
+        <item>wallpaper_live_jungle</item>
+        <item>wallpaper_5</item>
+    </string-array>
+    <string-array name="livewallpaper_intent_with_live">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>com.konka.wallpaper.windmill/com.konka.wallpaper.Windmill</item>
+        <item>com.konka.wallpaper.leaf/com.konka.wallpaper.LeafPaint</item>
+        <item>null</item>
+    </string-array>
+    <string-array name="widget_blacklist">
+        <item>com.konka.avenger/com.konka.avenger.tv.TVWindowWidgetProvider</item>
+        <item>com.konka.metrolauncher/com.konka.metrolauncher.tv.TVWindowWidgetProvider</item>
+        <item>com.konka.cloudsearchwidget/com.konka.cloudsearchwidget.CloudSearchWidget</item>
+        <item>com.konka.cloudsearch/com.konka.cloudsearch.widget.SearchBar</item>
+        <item>com.konka.tvsettings/com.konka.tvsettings.widget.TVSettingsWidgetProvider</item>
+        <item>com.iflytek.KonkaWeather/com.iflytek.KonkaWeather.ListWidget</item>
+        <item>com.iflytek.KonkaStock/com.iflytek.KonkaStock.Widget</item>
+        <item>com.iflytek.konkabaike/com.iflytek.konkabaike.BaikeWidget</item>
+        <item>com.iflytek.KonkaMemo/com.iflytek.KonkaMemo.MemoWidget</item>
+        <item>com.iflytek.KonkaMusic/com.iflytek.KonkaMusic.MusicWidget</item>
+        <item>com.iflytek.KonkaWeather/com.iflytek.KonkaWeather.DetailWidget</item>
+        <item>com.hycstv.android/com.hycs.android.widget.HisenseWidget</item>
+        <item>com.android.gallery3d/com.android.gallery3d.gadget.PhotoAppWidgetProvider</item>
+        <item>com.egame.tv/com.egame.tv.uis.widget.HisenseWidget</item>
+        <item>com.konka.info/com.konka.info.widget.InfoNewsWidgetForDoubleChannelProvider</item>
+        <item>com.konka.SmartControl/com.konka.SmartControl.widgets.ProgressBarWidget</item>
+        <item>com.konka.weibo/com.konka.weibo.widget.WeiboWidget</item>
+        <item>com.konka.market.widget/com.konka.market.widget.Main</item>
+        <item>com.konka.market.widget.dualchannel/com.konka.market.widget.dualchannel.Main</item>
+        <item>com.konka.Moviewidget/com.konka.Moviewidget.MovieWidgetProvider</item>
+        <item>com.konka.PopMoviewidget/com.konka.PopMoviewidget.PopMovieWidgetProvider</item>
+        <item>com.konka.market.kkmetrowidget/com.konka.market.kkmetrowidget.Main</item>
+        <item>com.konka.MetroTwoMoviewidget.kkmetrowidget/com.konka.MetroTwoMoviewidget.kkmetrowidget.TwoProvider</item>
+        <item>com.konka.info.news.kkmetrowidget/com.konka.info.news.kkmetrowidget.WidgetNewsProvider</item>
+        <item>com.konka.info.weather.kkmetrowidget/com.konka.info.weather.kkmetrowidget.WidgetWeatherProvider</item>
+        <item>com.edufound.ott/com.edufound.ott.widget.AppWidget</item>
+    </string-array>
+</resources>

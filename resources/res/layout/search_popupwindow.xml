@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.konka.ios7launcher" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/search_popupwindow" android:background="@drawable/search_popupwindow_bg" android:layout_width="match_parent" android:layout_height="300dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp">
+            <RelativeLayout android:gravity="center_vertical" android:id="@+id/search_word_layout" android:layout_width="@dimen/search_layout_width" android:layout_height="55dp">
+                <EditText android:textSize="22sp" android:textColor="@drawable/search_input_text_color" android:textColorHint="@color/input_hint_normal_color" android:gravity="center_vertical" android:id="@+id/search_word_edittext" android:background="@drawable/search_keyword_edittext_selector" android:paddingLeft="@dimen/search_edittext_with_icon_padding_left" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/search_input_hint" android:singleLine="true" android:drawableLeft="@drawable/search_icon" android:imeOptions="actionSearch"/>
+            </RelativeLayout>
+            <Button android:textSize="22sp" android:textColor="@color/search_button_normal_color" android:gravity="center" android:id="@+id/search_word_button" android:background="@drawable/search_button_selector" android:nextFocusLeft="@+id/search_word_edittext" android:layout_width="@dimen/search_button_width" android:layout_height="55dp" android:layout_marginLeft="@dimen/search_button_margin_left" android:text="@string/search" android:layout_toRightOf="@+id/search_word_layout"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/search_hotwords_layout" android:paddingTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/search_hotwords_hint_layout" android:paddingLeft="5dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <TextView android:textSize="18sp" android:textColor="@color/hotword_normal_color" android:id="@+id/search_hotwords_hint_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hotwords_got_failed"/>
+            <TextView android:textSize="18sp" android:textColor="@drawable/search_hotwords_text_color" android:id="@+id/refresh_hotwords_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hotwords_get_again"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

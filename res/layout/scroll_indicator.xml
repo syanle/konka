@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cyanogenmod.trebuchet.LinearScrollIndicator android:paddingLeft="@dimen/apps_customize_indicator_padding" android:paddingRight="@dimen/apps_customize_indicator_padding" android:visibility="gone" android:src="@drawable/com_scrollbar" android:scaleType="fitXY" android:alpha="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

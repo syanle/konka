@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appIOS7Icons xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.konka.ios7launcher">
+    <appIOS7Icon launcher:appPackageName="com.konka.systemsetting" launcher:IOS7Icon="@drawable/com_konka_systemsetting"/>
+    <appIOS7Icon launcher:appPackageName="com.bestv.ott.online" launcher:IOS7Icon="@drawable/com_bestv_ott_online"/>
+    <appIOS7Icon launcher:appPackageName="com.android.email" launcher:IOS7Icon="@drawable/com_android_email"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.market.main" launcher:IOS7Icon="@drawable/com_konka_market_main"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.weibo" launcher:IOS7Icon="@drawable/com_konka_weibo"/>
+    <appIOS7Icon launcher:appPackageName="com.chinatvpay.vapay" launcher:IOS7Icon="@drawable/com_chinatvpay"/>
+    <appIOS7Icon launcher:appPackageName="com.iflytek.xiri" launcher:IOS7Icon="@drawable/com_iflytek_vaf"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.movietheater" launcher:IOS7Icon="@drawable/com_konka_movietheater"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.mm" launcher:IOS7Icon="@drawable/com_konka_mm"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.mm" launcher:appStartClassName="com.konka.mm.samba.SambaMainActivity" launcher:IOS7Icon="@drawable/com_konka_mm_samba"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.mm" launcher:appStartClassName="com.konka.mm.music.MusicDiskActivity" launcher:IOS7Icon="@drawable/com_konka_mm_music"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.mm" launcher:appStartClassName="com.konka.mm.photo.PhotoDiskActivity" launcher:IOS7Icon="@drawable/com_konka_mm_photo"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.multimedia" launcher:IOS7Icon="@drawable/com_konka_mm"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.multimedia" launcher:appStartClassName="com.konka.multimedia.modules.movie.MovieActivity" launcher:IOS7Icon="@drawable/com_konka_movietheater"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.multimedia" launcher:appStartClassName="com.konka.multimedia.modules.music.MusicActivity" launcher:IOS7Icon="@drawable/com_konka_mm_music"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.multimedia" launcher:appStartClassName="com.konka.multimedia.modules.photo.AlbumActivity" launcher:IOS7Icon="@drawable/com_konka_mm_photo"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.multimedia" launcher:appStartClassName="com.konka.multimedia.modules.share.ShareActivity" launcher:IOS7Icon="@drawable/com_konka_mm_samba"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.help" launcher:IOS7Icon="@drawable/com_konka_help"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.message" launcher:IOS7Icon="@drawable/com_konka_message"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.cloudsearch" launcher:IOS7Icon="@drawable/com_konka_cloudsearch"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.passport" launcher:IOS7Icon="@drawable/com_konka_passport"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.eyeguard.ui" launcher:IOS7Icon="@drawable/com_konka_cloudhealth"/>
+    <appIOS7Icon launcher:appPackageName="com.android.browser" launcher:IOS7Icon="@drawable/com_android_browser"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.upgrade" launcher:IOS7Icon="@drawable/com_konka_update"/>
+    <appIOS7Icon launcher:appPackageName="com.android.calendar" launcher:IOS7Icon="@drawable/com_android_calendar"/>
+    <appIOS7Icon launcher:appPackageName="com.android.calculator2" launcher:IOS7Icon="@drawable/com_android_caculator"/>
+    <appIOS7Icon launcher:appPackageName="com.ijinshan.mguardkktv" launcher:IOS7Icon="@drawable/com_ijinshan_mguardkktv"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.cloudstorage" launcher:IOS7Icon="@drawable/com_konka_cloudstorage"/>
+    <appIOS7Icon launcher:appPackageName="com.tencent.QQVideo" launcher:IOS7Icon="@drawable/com_qq"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.appassistant" launcher:IOS7Icon="@drawable/com_konka_appassistant"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.kkmultiscreen" launcher:IOS7Icon="@drawable/com_konka_kkmultiscreen"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.apkhall.edu" launcher:IOS7Icon="@drawable/com_konka_apkhall_edu"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.apkhall.game" launcher:IOS7Icon="@drawable/com_konka_apkhall_game"/>
+    <appIOS7Icon launcher:appPackageName="com.bestv.ott.chinatvpay" launcher:IOS7Icon="@drawable/com_bestv_ott_chinatvpay"/>
+    <appIOS7Icon launcher:appPackageName="com.duomi.androidtv" launcher:IOS7Icon="@drawable/com_duomi_androidtv"/>
+    <appIOS7Icon launcher:appPackageName="cn.wps.moffice_i18n_TV" launcher:IOS7Icon="@drawable/cn_wps_moffice"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.doublechannelentry" launcher:IOS7Icon="@drawable/com_konka_doublechannelentry"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.thememanager" launcher:IOS7Icon="@drawable/com_konka_thememanager"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.ios7launcher" launcher:appStartClassName="com.konka.moreapps.TVActivity" launcher:IOS7Icon="@drawable/com_konka_moreapps_tvactivity"/>
+    <appIOS7Icon launcher:appPackageName="tv.icntv.ott" launcher:IOS7Icon="@drawable/tv_icntv_ott"/>
+    <appIOS7Icon launcher:appPackageName="com.bestv.ctv" launcher:IOS7Icon="@drawable/com_bestv_ctv"/>
+    <appIOS7Icon launcher:appPackageName="com.bestv.ott.launcher" launcher:IOS7Icon="@drawable/com_bestv_ctv"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.kkreader.ui" launcher:IOS7Icon="@drawable/com_konka_kkreader_ui"/>
+    <appIOS7Icon launcher:appPackageName="com.android.providers.downloads.ui" launcher:IOS7Icon="@drawable/com_android_providers_downloads_ui"/>
+    <appIOS7Icon launcher:appPackageName="com.iflytek.inputmethod.TV" launcher:IOS7Icon="@drawable/com_iflytek_inputmethod"/>
+    <appIOS7Icon launcher:appPackageName="com.egame.tv" launcher:IOS7Icon="@drawable/com_egame_tv"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.widi" launcher:IOS7Icon="@drawable/com_konka_widi"/>
+    <appIOS7Icon launcher:appPackageName="com.ireadygo.tvplay" launcher:IOS7Icon="@drawable/com_ireadygo_tvplay"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.weikan" launcher:IOS7Icon="@drawable/com_konka_weikan"/>
+    <appIOS7Icon launcher:appPackageName="com.iflytek.showcomesettings" launcher:IOS7Icon="@drawable/com_iflytek_showcomesettings"/>
+    <appIOS7Icon launcher:appPackageName="com.android.contacts" launcher:IOS7Icon="@drawable/com_android_contact"/>
+    <appIOS7Icon launcher:appPackageName="com.edufound.ott" launcher:IOS7Icon="@drawable/com_edufound_ott"/>
+    <appIOS7Icon launcher:appPackageName="com.ifeng.easyVideo" launcher:IOS7Icon="@drawable/com_ifeng_easyvideo"/>
+    <appIOS7Icon launcher:appPackageName="com.qiyi.video" launcher:IOS7Icon="@drawable/com_qiyi_video"/>
+    <appIOS7Icon launcher:appPackageName="com.ifeng.weather" launcher:IOS7Icon="@drawable/com_ifeng_weather"/>
+    <appIOS7Icon launcher:appPackageName="com.letv.tv" launcher:appStartClassName="com.letv.tv.activity.WelcomeActivity" launcher:IOS7Icon="@drawable/com_letv_tv"/>
+    <appIOS7Icon launcher:appPackageName="com.letv.tv" launcher:appStartClassName="com.letv.play.playActivity" launcher:IOS7Icon="@drawable/com_letv_tv"/>
+    <appIOS7Icon launcher:appPackageName="cn.kuwo.sing.tv" launcher:IOS7Icon="@drawable/cn_kuwo_sing_tv"/>
+    <appIOS7Icon launcher:appPackageName="com.bestv.nba" launcher:IOS7Icon="@drawable/com_bestv_nba"/>
+    <appIOS7Icon launcher:appPackageName="com.bestv.yingchao" launcher:IOS7Icon="@drawable/com_bestv_yingchao"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.bluetoothsetting" launcher:IOS7Icon="@drawable/com_konka_bluetoothsetting"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.networkepg" launcher:IOS7Icon="@drawable/com_konka_networkepg"/>
+    <appIOS7Icon launcher:appPackageName="com.iflytek.xiri.video" launcher:IOS7Icon="@drawable/com_iflytek_xiri_video"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.tvbutlerfortv" launcher:IOS7Icon="@drawable/com_konka_tvbutlerfortv"/>
+    <appIOS7Icon launcher:appPackageName="com.youku.tv" launcher:IOS7Icon="@drawable/com_youku_tv"/>
+    <appIOS7Icon launcher:appPackageName="com.ktcp.video" launcher:IOS7Icon="@drawable/com_tencent_live_tv"/>
+    <appIOS7Icon launcher:appPackageName="com.ktcp.photo" launcher:IOS7Icon="@drawable/com_tencent_photo_tv"/>
+    <appIOS7Icon launcher:appPackageName="com.ktcp.game" launcher:IOS7Icon="@drawable/com_tencent_game_tv"/>
+    <appIOS7Icon launcher:appPackageName="com.ktcp.music" launcher:IOS7Icon="@drawable/com_tencent_music_tv"/>
+    <appIOS7Icon launcher:appPackageName="com.konka.ios7launcher" launcher:appStartClassName="com.konka.moreapps.TongXunActivity" launcher:IOS7Icon="@drawable/com_konka_moreapps_tongxunactivity"/>
+</appIOS7Icons>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="drawIdentifier" format="string">
+    </attr>
+    <attr name="cellCountX" format="integer">
+    </attr>
+    <attr name="cellCountY" format="integer">
+    </attr>
+    <attr name="cellWidth" format="dimension">
+    </attr>
+    <attr name="cellHeight" format="dimension">
+    </attr>
+    <attr name="widthGap" format="dimension">
+    </attr>
+    <attr name="heightGap" format="dimension">
+    </attr>
+    <attr name="maxGap" format="dimension">
+    </attr>
+    <attr name="spacingLeft" format="dimension">
+    </attr>
+    <attr name="spacingRight" format="dimension">
+    </attr>
+    <attr name="spacingTop" format="dimension">
+    </attr>
+    <attr name="spacingBottom" format="dimension">
+    </attr>
+    <attr name="sourceImageViewId" format="integer">
+    </attr>
+    <attr name="blurColor" format="color">
+    </attr>
+    <attr name="outlineColor" format="color">
+    </attr>
+    <attr name="pageLayoutWidthGap" format="dimension">
+    </attr>
+    <attr name="pageLayoutHeightGap" format="dimension">
+    </attr>
+    <attr name="pageLayoutPaddingTop" format="dimension">
+    </attr>
+    <attr name="pageLayoutPaddingBottom" format="dimension">
+    </attr>
+    <attr name="pageLayoutPaddingLeft" format="dimension">
+    </attr>
+    <attr name="pageLayoutPaddingRight" format="dimension">
+    </attr>
+    <attr name="pageSpacing" format="dimension">
+    </attr>
+    <attr name="scrollIndicatorPaddingLeft" format="dimension">
+    </attr>
+    <attr name="scrollIndicatorPaddingRight" format="dimension">
+    </attr>
+    <attr name="maxAppCellCountX" format="integer">
+    </attr>
+    <attr name="maxAppCellCountY" format="integer">
+    </attr>
+    <attr name="widgetCellWidthGap" format="dimension">
+    </attr>
+    <attr name="widgetCellHeightGap" format="dimension">
+    </attr>
+    <attr name="widgetCountX" format="integer">
+    </attr>
+    <attr name="widgetCountY" format="integer">
+    </attr>
+    <attr name="clingFocusedX" format="integer">
+    </attr>
+    <attr name="clingFocusedY" format="integer">
+    </attr>
+    <attr name="className" format="string">
+    </attr>
+    <attr name="packageName" format="string">
+    </attr>
+    <attr name="container" format="string">
+    </attr>
+    <attr name="screen" format="string">
+    </attr>
+    <attr name="x" format="string">
+    </attr>
+    <attr name="y" format="string">
+    </attr>
+    <attr name="spanX" format="string">
+    </attr>
+    <attr name="spanY" format="string">
+    </attr>
+    <attr name="icon" format="reference">
+    </attr>
+    <attr name="title" format="string">
+    </attr>
+    <attr name="uri" format="string">
+    </attr>
+    <attr name="lock" format="string">
+    </attr>
+    <attr name="max" format="integer">
+    </attr>
+    <attr name="min" format="integer">
+    </attr>
+    <attr name="maxExternal" format="string">
+    </attr>
+    <attr name="minExternal" format="string">
+    </attr>
+    <attr name="defaultValue1" format="integer">
+    </attr>
+    <attr name="defaultValue2" format="integer">
+    </attr>
+    <attr name="max1" format="integer">
+    </attr>
+    <attr name="min1" format="integer">
+    </attr>
+    <attr name="max2" format="integer">
+    </attr>
+    <attr name="min2" format="integer">
+    </attr>
+    <attr name="maxExternal1" format="string">
+    </attr>
+    <attr name="minExternal1" format="string">
+    </attr>
+    <attr name="maxExternal2" format="string">
+    </attr>
+    <attr name="minExternal2" format="string">
+    </attr>
+    <attr name="pickerTitle1" format="string">
+    </attr>
+    <attr name="pickerTitle2" format="string">
+    </attr>
+    <attr name="appPackageName" format="string">
+    </attr>
+    <attr name="appStartClassName" format="string">
+    </attr>
+    <attr name="appName" format="string">
+    </attr>
+    <attr name="IOS7Icon" format="reference">
+    </attr>
+    <attr name="gdPageIndicatorStyle" format="reference">
+    </attr>
+    <attr name="dotCount" format="integer">
+    </attr>
+    <attr name="activeDot" format="integer">
+    </attr>
+    <attr name="dotDrawable" format="reference">
+    </attr>
+    <attr name="dotSpacing" format="dimension">
+    </attr>
+    <attr name="gravity">
+        <flag name="top" value="30" />
+        <flag name="bottom" value="50" />
+        <flag name="left" value="3" />
+        <flag name="right" value="5" />
+        <flag name="center_vertical" value="10" />
+        <flag name="center_horizontal" value="1" />
+        <flag name="center" value="11" />
+    </attr>
+    <attr name="dotType">
+        <enum name="single" value="0" />
+        <enum name="multiple" value="1" />
+    </attr>
+</resources>

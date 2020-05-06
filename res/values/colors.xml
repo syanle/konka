@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="delete_target_hover_tint">#daff0000</color>
+    <color name="info_target_hover_tint">#da0099cc</color>
+    <color name="drag_view_multiply_color">#ccffffff</color>
+    <color name="bubble_dark_background">#20000000</color>
+    <color name="appwidget_error_color">#ffcccccc</color>
+    <color name="workspace_all_apps_and_delete_zone_text_color">#ccffffff</color>
+    <color name="workspace_all_apps_and_delete_zone_text_shadow_color">#a0000000</color>
+    <color name="konka_orange">#ffff781e</color>
+    <color name="konka_blue">#ff83d5ff</color>
+    <color name="konka_black">#ff504b4b</color>
+    <color name="konka_gray">#ff938989</color>
+    <color name="kk_btn_selected">#ffffffff</color>
+    <color name="kk_btn_normal">#ff686868</color>
+    <color name="kk_btn_disabled">#ff555555</color>
+    <color name="kk_qsb_text">#ffcacaca</color>
+    <color name="quickaction_text_normal">#ff000000</color>
+    <color name="quickaction_text_disabled">#ffcccccc</color>
+    <color name="folder_background">#77000000</color>
+    <color name="kk_tv_window_margin">#ff505050</color>
+    <color name="suggest_keyword_color">#ff747474</color>
+    <color name="suggest_normal_color">#ff000000</color>
+    <color name="hotword_normal_color">#ff3b3b3b</color>
+    <color name="hotword_focused_color">#ff00bbfa</color>
+    <color name="input_hint_normal_color">#ff777777</color>
+    <color name="input_hint_focused_color">#ff357ec7</color>
+    <color name="input_text_normal_color">#ff434343</color>
+    <color name="input_text_focused_color">#ff00bbfa</color>
+    <color name="search_button_normal_color">#ff434343</color>
+    <color name="search_button_focused_color">#ffffffff</color>
+</resources>

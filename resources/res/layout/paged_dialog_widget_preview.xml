@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cyanogenmod.trebuchet.PagedDialogViewWidget xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.konka.ios7launcher" android:orientation="vertical" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" launcher:blurColor="#ff6b8cf0" launcher:outlineColor="#ff8cd2ff">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp">
+        <TextView android:textSize="13sp" android:textColor="#ff555555" android:ellipsize="marquee" android:gravity="left" android:id="@+id/widget_name" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textColor="#ff555555" android:gravity="left" android:layout_gravity="center" android:id="@+id/widget_dims" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_weight="0"/>
+    </LinearLayout>
+    <com.cyanogenmod.trebuchet.PagedViewWidgetImageView android:id="@+id/widget_preview" android:paddingLeft="@dimen/app_widget_preview_padding_left" android:paddingTop="@dimen/app_widget_preview_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="matrix" android:layout_weight="1"/>
+</com.cyanogenmod.trebuchet.PagedDialogViewWidget>

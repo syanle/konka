@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preferences_interface_homescreen_scrolling_transition_effect_entries">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>Riduci</item>
+        <item>Ingrandisci</item>
+        <item>Ruota su</item>
+        <item>Ruota giù</item>
+        <item>Cubo interno</item>
+        <item>Cubo esterno</item>
+        <item>Pila</item>
+    </array>
+    <array name="preferences_interface_drawer_scrolling_transition_effect_entries">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>Riduci</item>
+        <item>Ingrandisci</item>
+        <item>Ruota su</item>
+        <item>Ruota giù</item>
+        <item>Cubo interno</item>
+        <item>Cubo esterno</item>
+        <item>Pila</item>
+    </array>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cyanogenmod.trebuchet.AccessibleTabView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.konka.ios7launcher" android:drawableLeft="@drawable/home_hint_list1_uns" style="@style/TabIndicator.AppsCustomize"/>

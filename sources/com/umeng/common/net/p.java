@@ -1,0 +1,23 @@
+package com.umeng.common.net;
+
+import org.json.JSONObject;
+
+/* compiled from: ReportResponse */
+public class p extends u {
+    public a a;
+
+    /* compiled from: ReportResponse */
+    public enum a {
+        SUCCESS,
+        FAIL
+    }
+
+    public p(JSONObject jSONObject) {
+        super(jSONObject);
+        if ("ok".equalsIgnoreCase(jSONObject.optString("status")) || "ok".equalsIgnoreCase(jSONObject.optString("success"))) {
+            this.a = a.SUCCESS;
+        } else {
+            this.a = a.FAIL;
+        }
+    }
+}

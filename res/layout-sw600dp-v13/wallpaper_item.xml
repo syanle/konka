@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/focusable_view_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/wallpaper_image" android:focusable="true" android:layout_width="@dimen/wallpaper_chooser_grid_width" android:layout_height="@dimen/wallpaper_chooser_grid_height" android:scaleType="centerCrop" />
+    <TextView android:layout_gravity="center|right|top" android:id="@id/wallpaper_tag_live" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hint_wallpaper_live" />
+</FrameLayout>

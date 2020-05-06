@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.konka.ios7launcher">
+    <favorite launcher:className="com.konka.moreapps.TVActivity" launcher:packageName="com.konka.ios7launcher" launcher:container="-101" launcher:screen="0" launcher:x="0" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.konka.market.main.Main" launcher:packageName="com.konka.market.main" launcher:container="-101" launcher:screen="0" launcher:x="1" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.android.browser.BrowserActivity" launcher:packageName="com.android.browser" launcher:container="-101" launcher:screen="0" launcher:x="2" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.konka.mm.photo.PhotoDiskActivity" launcher:packageName="com.konka.mm" launcher:container="-101" launcher:screen="0" launcher:x="3" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.konka.multimedia.modules.photo.AlbumActivity" launcher:packageName="com.konka.multimedia" launcher:container="-101" launcher:screen="0" launcher:x="3" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.konka.mm.filemanager.FileDiskActivity" launcher:packageName="com.konka.mm" launcher:container="-101" launcher:screen="0" launcher:x="4" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.konka.multimedia.modules.BrowseTabActivity" launcher:packageName="com.konka.multimedia" launcher:container="-101" launcher:screen="0" launcher:x="4" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.bestv.ott.launcher.Launcher" launcher:packageName="com.bestv.ott.launcher" launcher:screen="0" launcher:x="0" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.bestv.yingchao.MainActivity" launcher:packageName="com.bestv.yingchao" launcher:screen="0" launcher:x="1" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.bestv.nba.MainActivity" launcher:packageName="com.bestv.nba" launcher:screen="0" launcher:x="2" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.youku.tv.WelcomeActivity" launcher:packageName="com.youku.tv" launcher:screen="0" launcher:x="3" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.letv.tv.activity.WelcomeActivity" launcher:packageName="com.letv.tv" launcher:screen="0" launcher:x="4" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.konka.thememanager.main.ThememanagerActivity" launcher:packageName="com.konka.thememanager" launcher:screen="0" launcher:x="5" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.konka.systemsetting.MainActivity" launcher:packageName="com.konka.systemsetting" launcher:screen="0" launcher:x="6" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.konka.apkhall.edu.Main" launcher:packageName="com.konka.apkhall.edu" launcher:screen="0" launcher:x="0" launcher:y="1" launcher:lock="1" />
+    <favorite launcher:className="com.konka.apkhall.game.Main" launcher:packageName="com.konka.apkhall.game" launcher:screen="0" launcher:x="1" launcher:y="1" launcher:lock="1" />
+    <favorite launcher:className="com.ifeng.easyVideo.StartActivity" launcher:packageName="com.ifeng.easyVideo" launcher:screen="0" launcher:x="2" launcher:y="1" launcher:lock="1" />
+    <favorite launcher:className="com.ifeng.weather.StartActivity" launcher:packageName="com.ifeng.weather" launcher:screen="0" launcher:x="3" launcher:y="1" launcher:lock="1" />
+    <favorite launcher:className="com.konka.appassistant.AppAssistantActivity" launcher:packageName="com.konka.appassistant" launcher:screen="0" launcher:x="4" launcher:y="1" launcher:lock="1" />
+    <favorite launcher:className="com.konka.multimedia.modules.movie.MovieActivity" launcher:packageName="com.konka.multimedia" launcher:screen="0" launcher:x="5" launcher:y="1" launcher:lock="1" />
+    <favorite launcher:className="com.konka.multimedia.modules.music.MusicActivity" launcher:packageName="com.konka.multimedia" launcher:screen="0" launcher:x="6" launcher:y="1" launcher:lock="1" />
+    <folder launcher:screen="0" launcher:x="0" launcher:y="2" launcher:title="KK+" launcher:lock="1">
+        <favorite launcher:className="com.konka.doublechannelentry.DoubleChannelRootApp" launcher:packageName="com.konka.doublechannelentry" />
+        <favorite launcher:className="com.konka.multimedia.modules.share.ShareActivity" launcher:packageName="com.konka.multimedia" />
+        <favorite launcher:className="com.iflytek.showcomesettings.DevSwitchKeyActivity" launcher:packageName="com.iflytek.showcomesettings" />
+        <favorite launcher:className="com.iflytek.xiri.tool.Launch" launcher:packageName="com.iflytek.xiri" />
+        <favorite launcher:className="com.konka.kkmultiscreen.KKMutiScreenTvActivity" launcher:packageName="com.konka.kkmultiscreen" />
+        <favorite launcher:className="com.konka.tvbutlerfortv.MainActivity" launcher:packageName="com.konka.tvbutlerfortv" />
+        <favorite launcher:className="com.bestv.ott.epay.view.main.Welcome" launcher:packageName="com.bestv.ott.chinatvpay" />
+        <favorite launcher:className="com.konka.passport.LoginCheckActivity" launcher:packageName="com.konka.passport" />
+        <favorite launcher:className="com.konka.message.MessageCenterActivity" launcher:packageName="com.konka.message" />
+    </folder>
+    <favorite launcher:className="com.duomi.androidtv.activity.InitActivity" launcher:packageName="com.duomi.androidtv" launcher:screen="1" launcher:x="0" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="cn.kuwo.sing.tv.view.activity.EntryActivity" launcher:packageName="cn.kuwo.sing.tv" launcher:screen="1" launcher:x="1" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.konka.cloudstorage.MainActivity" launcher:packageName="com.konka.cloudstorage" launcher:screen="1" launcher:x="2" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.ijinshan.mguard.smarttv.MainActivity" launcher:packageName="com.ijinshan.mguardkktv" launcher:screen="1" launcher:x="3" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="cn.wps.moffice.documentmanager.PreStartActivity" launcher:packageName="cn.wps.moffice_i18n_TV" launcher:screen="1" launcher:x="4" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.konka.cloudsearch.SearchBoxActivity" launcher:packageName="com.konka.cloudsearch" launcher:screen="1" launcher:x="5" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.konka.bluetoothsetting.BluetoothSetting" launcher:packageName="com.konka.bluetoothsetting" launcher:screen="1" launcher:x="6" launcher:y="0" launcher:lock="1" />
+    <favorite launcher:className="com.android.providers.downloads.ui.DownloadList" launcher:packageName="com.android.providers.downloads.ui" launcher:screen="1" launcher:x="0" launcher:y="1" launcher:lock="1" />
+    <favorite launcher:className="com.iflytek.xiri.video.LiveProgramActivity" launcher:packageName="com.iflytek.xiri.video" launcher:screen="1" launcher:x="1" launcher:y="1" launcher:lock="1" />
+</favorites>

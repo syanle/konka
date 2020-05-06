@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cyanogenmod.trebuchet.DottedScrollIndicator xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.konka.ios7launcher" android:gravity="center_horizontal" android:orientation="horizontal" android:paddingLeft="@dimen/apps_customize_indicator_padding" android:paddingRight="@dimen/apps_customize_indicator_padding"/>

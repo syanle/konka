@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.konka.ios7launcher" android:orientation="vertical" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/user_center_head_pic" android:layout_width="150dp" android:layout_height="150dp" android:layout_marginLeft="20dp" android:layout_marginBottom="20dp" android:src="@drawable/default_user_head_pic"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="190dp">
+        <TextView android:textSize="20sp" android:textColor="@color/konka_black" android:id="@+id/user_center_name" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="30dp" android:text="用户名"/>
+        <TextView android:textSize="16sp" android:textColor="@color/konka_gray" android:id="@+id/user_center_location" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="test@konka.com"/>
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:src="@drawable/separate_line" android:scaleType="fitXY"/>
+        <TextView android:textSize="20sp" android:textColor="@color/konka_black" android:gravity="center_vertical" android:id="@+id/user_center_acount_setting" android:background="@drawable/popup_menu_item_bg" android:paddingLeft="10dp" android:focusable="true" android:clickable="true" android:layout_width="120dp" android:layout_height="48dp" android:text="@string/usercenter_setting" android:onClick="onClickUserSettingsButton"/>
+        <TextView android:textSize="20sp" android:textColor="@color/konka_black" android:gravity="center_vertical" android:id="@+id/user_center_acount_logout" android:background="@drawable/popup_menu_item_bg" android:paddingLeft="10dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="3dp" android:text="@string/usercenter_logout" android:onClick="onClickUserLogoutButton"/>
+    </LinearLayout>
+</RelativeLayout>

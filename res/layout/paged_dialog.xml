@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/topPanel" android:background="@drawable/paged_dialog_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/titleDividerTop" android:background="@android:color/holo_blue_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/title_template" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:minHeight="@dimen/paged_dialog_title_height">
+            <ImageView android:id="@id/icon" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" />
+            <com.android.internal.widget.DialogTitle android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/pagedTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/windowTitleStyle" />
+        </LinearLayout>
+        <View android:id="@id/titleDivider" android:background="@android:color/holo_blue_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/contentPanel" android:background="@drawable/paged_dialog_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/pagedPanel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <greendroid.widget.PageIndicator android:layout_gravity="center|top" android:id="@id/page_indicator" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" style="@style/GreenDroid.Widget.PageIndicator" />
+            <greendroid.widget.PagedView android:id="@id/paged_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <include layout="@layout/apps_customize_progressbar" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/buttonPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerHorizontal" android:minHeight="@dimen/paged_dialog_button_bar_height" android:showDividers="none" android:dividerPadding="0.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" android:showDividers="none" style="?android:attr/buttonBarStyle">
+            <Button android:textSize="18.0sp" android:textColor="@drawable/kk_button_text_color" android:layout_gravity="left" android:id="@id/button2" android:background="@drawable/kk_button_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/paged_dialog_button_bar_height" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+            <Button android:textSize="18.0sp" android:textColor="@drawable/kk_button_text_color" android:layout_gravity="right" android:id="@id/button1" android:background="@drawable/kk_button_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/paged_dialog_button_bar_height" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

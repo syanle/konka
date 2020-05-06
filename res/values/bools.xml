@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_hardwareAccelerated">true</bool>
+    <bool name="config_largeHeap">true</bool>
+    <bool name="config_defaultAutoRotate">false</bool>
+    <bool name="config_allow_homescreen_add">true</bool>
+    <bool name="config_cyanogenmod">false</bool>
+    <bool name="config_clingEnable">false</bool>
+    <bool name="config_guideEnable">true</bool>
+    <bool name="config_optionMenuEnable">false</bool>
+    <bool name="config_use_homescreen_icon_res">false</bool>
+    <bool name="config_useDropTargetDownTransition">true</bool>
+    <bool name="config_workspaceDefualtFadeInAdjacentScreens">false</bool>
+    <bool name="config_searchScreenEnable">false</bool>
+    <bool name="config_enforceLockItemPolicy">false</bool>
+    <bool name="config_scaleOnItemSelect">false</bool>
+    <bool name="config_scroll_wallpaper">false</bool>
+</resources>

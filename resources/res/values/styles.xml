@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GreenDroid">
+    </style>
+    <style name="GreenDroid.Widget">
+    </style>
+    <style name="GreenDroid.Widget.PageIndicator">
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="dotDrawable">@drawable/gd_page_indicator_dot</item>
+        <item name="dotSpacing">5dp</item>
+    </style>
+    <style name="Theme.WallpaperPicker">
+        <item name="android:screenOrientation">nosensor</item>
+    </style>
+    <style name="ClingButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/cling_button_bg</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/cling_dismiss</item>
+    </style>
+    <style name="ClingTitleText">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#49c0ec</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <style name="ClingText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="WorkspaceIcon">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#b0000000</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait">
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingTop">@dimen/app_icon_padding_top</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape">
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingTop">@dimen/app_icon_padding_top</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:drawablePadding">2dp</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait.Folder">
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:drawablePadding">0dp</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape.Folder">
+        <item name="android:textSize">22sp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_marginTop">-2dp</item>
+        <item name="android:drawablePadding">4dp</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait.AppsCustomize">
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:drawablePadding">2dp</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape.AppsCustomize">
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:drawablePadding">6dp</item>
+    </style>
+    <style name="QSBBar">
+        <item name="android:layout_gravity">left|right|center_vertical|center_horizontal|fill_horizontal|center|clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:background">@drawable/search_bg_panel</item>
+        <item name="android:paddingLeft">@dimen/qsb_padding_left</item>
+        <item name="android:paddingRight">@dimen/qsb_padding_right</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qsb_bar_height</item>
+    </style>
+    <style name="SearchDropTargetBar">
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="SearchButton">
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:paddingTop">@dimen/toolbar_button_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/toolbar_button_vertical_padding</item>
+    </style>
+    <style name="SearchButtonDivider">
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="DropTargetButtonContainer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="DropTargetButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">@null</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:drawablePadding">7.5dp</item>
+    </style>
+    <style name="TabIndicator">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/tab_widget_indicator_selector</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TabIndicator.AppsCustomize">
+    </style>
+    <style name="QuickEntryButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/workspace_all_apps_and_delete_zone_text_color</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:shadowColor">@color/workspace_all_apps_and_delete_zone_text_shadow_color</item>
+        <item name="android:shadowDx">@null</item>
+        <item name="android:shadowDy">@null</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <style name="Animations">
+    </style>
+    <style name="Animations.QuickAction">
+    </style>
+    <style name="Animations.QuickAction.PopDownMenu">
+    </style>
+    <style name="Animations.QuickAction.PopDownMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/quickaction_grow_from_top</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_shrink_from_bottom</item>
+    </style>
+    <style name="Animations.QuickAction.PopDownMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/quickaction_grow_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_shrink_from_bottomright_to_topleft</item>
+    </style>
+    <style name="Animations.QuickAction.PopDownMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/quickaction_grow_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_shrink_from_bottomleft_to_topright</item>
+    </style>
+    <style name="Animations.QuickAction.PopDownMenu.Reflect">
+        <item name="android:windowEnterAnimation">@anim/quickaction_pump_top</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_disappear</item>
+    </style>
+    <style name="Animations.QuickAction.PopUpMenu">
+    </style>
+    <style name="Animations.QuickAction.PopUpMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/quickaction_grow_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_shrink_from_top</item>
+    </style>
+    <style name="Animations.QuickAction.PopUpMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/quickaction_grow_from_bottomleft_to_topright</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_shrink_from_topright_to_bottomleft</item>
+    </style>
+    <style name="Animations.QuickAction.PopUpMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/quickaction_grow_from_bottomright_to_topleft</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_shrink_from_topleft_to_bottomright</item>
+    </style>
+    <style name="Animations.QuickAction.PopUpMenu.Reflect">
+        <item name="android:windowEnterAnimation">@anim/quickaction_pump_bottom</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_disappear</item>
+    </style>
+    <style name="Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="LockScreenDialog">
+        <item name="android:windowBackground">@drawable/mutiusers_dialog_bg</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="SearchPopupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/search_popupwindow_enter</item>
+        <item name="android:windowExitAnimation">@anim/search_popupwindow_exit</item>
+    </style>
+    <style name="SearchPopupWindow">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/SearchPopupWindowAnimation</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="MessagePopupWindow">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/SearchPopupWindowAnimation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

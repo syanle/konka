@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.konka.ios7launcher" android:orientation="vertical" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/net_name_field" android:layout_width="wrap_content" android:layout_height="48dp">
+        <TextView android:textSize="20sp" android:textColor="@color/konka_black" android:id="@+id/net_name" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_name"/>
+        <TextView android:textSize="16sp" android:textColor="@color/konka_gray" android:id="@+id/net_status" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_status_disconnected"/>
+    </LinearLayout>
+    <ImageView android:background="@drawable/separate_line" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textSize="20sp" android:textColor="@color/konka_black" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/net_settings" android:background="@drawable/popup_menu_item_bg" android:paddingLeft="20dp" android:paddingRight="20dp" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/net_setting" android:onClick="onClickNetworkSettingsButton"/>
+</LinearLayout>

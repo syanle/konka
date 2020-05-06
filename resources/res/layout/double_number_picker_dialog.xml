@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.konka.ios7launcher" android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/picker_title_1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <NumberPicker android:id="@+id/number_picker_1" android:layout_width="50dp" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/picker_title_2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <NumberPicker android:id="@+id/number_picker_2" android:layout_width="50dp" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    </LinearLayout>
+</LinearLayout>

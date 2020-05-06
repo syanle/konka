@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.konka.ios7launcher" android:orientation="vertical" android:id="@+id/parentPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/topPanel" android:background="@drawable/paged_dialog_title_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/titleDividerTop" android:background="@android:color/holo_blue_light" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2dp"/>
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/title_template" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:minHeight="@dimen/paged_dialog_title_height">
+            <ImageView android:id="@+id/icon" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null"/>
+            <com.android.internal.widget.DialogTitle android:textColor="@android:color/white" android:ellipsize="end" android:id="@+id/pagedTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/windowTitleStyle"/>
+        </LinearLayout>
+        <View android:id="@+id/titleDivider" android:background="@android:color/holo_blue_light" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2dp"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/contentPanel" android:background="@drawable/paged_dialog_bg" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/pagedPanel" android:layout_width="match_parent" android:layout_height="match_parent">
+            <greendroid.widget.PageIndicator android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/page_indicator" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" style="@style/GreenDroid.Widget.PageIndicator"/>
+            <greendroid.widget.PagedView android:id="@+id/paged_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        </LinearLayout>
+        <include layout="@layout/apps_customize_progressbar"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/buttonPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?android:attr/dividerHorizontal" android:minHeight="@dimen/paged_dialog_button_bar_height" android:showDividers="none" android:dividerPadding="0dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" android:showDividers="none" style="?android:attr/buttonBarStyle">
+            <Button android:textSize="18sp" android:textColor="@drawable/kk_button_text_color" android:layout_gravity="left" android:id="@+id/button2" android:background="@drawable/kk_button_selector" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/paged_dialog_button_bar_height" android:layout_weight="1" style="?android:attr/buttonBarButtonStyle"/>
+            <Button android:textSize="18sp" android:textColor="@drawable/kk_button_text_color" android:layout_gravity="right" android:id="@+id/button1" android:background="@drawable/kk_button_selector" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/paged_dialog_button_bar_height" android:layout_weight="1" style="?android:attr/buttonBarButtonStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
